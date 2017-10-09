@@ -89,6 +89,7 @@
                     <!-- deploy configuration -->
                 </configuration>
             </plugin>
+            <!-- [START endpoints_plugin] -->
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>endpoints-framework-maven-plugin</artifactId>
@@ -98,6 +99,7 @@
                     <hostname>${endpoints.project.id}.appspot.com</hostname>
                 </configuration>
             </plugin>
+            <!-- [END endpoints_plugin] -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
